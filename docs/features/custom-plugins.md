@@ -31,15 +31,15 @@ The REST API needs to handle the request in the following format:
     "hosts": [
         {
             "name": "agent-1",
-            "offer": {"cpu": 1.0,"memory": 1.0, "disk": 1.0}
+            "offer": {"cpu": 1.0,"memory": 1024.0, "disk": 1048576.0}
         },
         {
             "name": "agent-2",
-            "offer": {"cpu": 3.0,"memory": 1.0, "disk": 1.0}
+            "offer": {"cpu": 3.0,"memory": 2048.0, "disk": 1048576.0}
         } ,
         {
             "name": "agent-3",
-            "offer": {"cpu": 2.0,"memory": 1.0, "disk": 1.0}
+            "offer": {"cpu": 2.0,"memory": 2048.0, "disk": 1048576.0}
         } 
     ]
 }
